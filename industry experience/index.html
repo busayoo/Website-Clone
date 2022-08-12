@@ -7,9 +7,10 @@
         <title>Zuri</title>
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="https://zuri.team/img/favicon.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/8a9259e15f.js" crossorigin="anonymous"></script>
+      
     </head>
     <body>
+      
         <header>
             <img src="images/asset 0.svg" alt="icon">
             <div class="top_texts">
@@ -21,18 +22,20 @@
         </header>
         <div class="section1">
             <div class="top_text_container">
+                <div class="justnow">
             <p>Vetted and Trusted <em> talents </em></p>
             <div class="yellowimg">
                 <img src="images/asset 1.svg" alt="icon">
             </div>
+        </div>
             <div class="top_second_text">
                 <p>
-                    At Zuri Team, we train, test and place talent in various industries . We have access to the best pool of skills in the tech Industry.
+                    At Zuri Team, we train, test and place talent in various industries.We have access to the best pool of skills in the tech Industry.
                 </p>
             </div>
         <div class="button_container">
-            <button class="red">Hire Talent</button>
-            <button class="grey">Join Talent pool</button>
+            <button id="modal_btn" class="red ">Hire Talent</button>
+            <button id="mybtn" class="grey ">Join Talent pool</button>
         </div>
             </div>
             <div class="top_left_img">
@@ -56,6 +59,7 @@
             </div>
         </div>
         <div class="section3">
+            <div class="shadowbox1">
             <p>Skills of our <span>talents</span> that
                 <br>you will need</p>
             <div class="shadow_box">
@@ -67,6 +71,8 @@
                     <img src="images/asset 3.svg" alt="icon">
                 </div>
             </div>
+            </div>
+            <div class="shadowbox2">
             <p>Where our talents work</p>
             <div class="shadow_box">
                 <div class="one">Github</div>
@@ -76,7 +82,8 @@
                 <div class="one">Google</div>
                 <div class="one">Career Transitioners</div>
             </div>
-        </div>
+            </div>
+           </div>
         <div class="section4">
             <p>Why Hire our <span>Talents</span></p>
             <div class="redrope">
@@ -117,7 +124,7 @@
             </div>
             </div>
             <div class="footbtnwrap">
-            <button class="red">Hire Talent</button>
+            <button id="myBtn" class="red">Hire Talent</button>
             <button class="grey">Join Talent Pool</button>
         </div>
         </div>
@@ -143,11 +150,28 @@
             </div>
             <div class="footer_text">
                 <div class="footer_left">&copy;copyright 2022 ZURI TEAM.All rights Reserved</div>
-                <hr>
                 <div class="footer_right">
                     <a href="mailto:talent@zuri.team" target="_blank">talent@zuri.team</a>
                 </div>
             </div>
         </footer>
+        <div id="myModal" class="modal">
+            <div class="modal_content">
+              <h3>Talent Recruitment</h3>
+              <p>We will love to discuss your business and your talent needs.</p>
+              <button>
+                <p>
+                    <a href="https://forms.gle/QFsTDVg2EhpY32Pd9">Fill This Form</a>
+                </p>
+              </button>
+              <p>OR</p>
+              <button>
+                <p>
+                    <a href="https://calendly.com/zuri-team/consult-with-seyi?month=2022-04">Book A Consultation</a>
+                </p>
+              </button>
+            </div>
+            </div>
+            <script src="script.js"></script>
     </body>
 </html>
