@@ -39,6 +39,7 @@ header{
     text-decoration: none;
     display: flex;
     align-items: center;
+    color: #161617;
 }
 .top_texts>a:first-child{
     border-bottom: 2px solid #e7332b;
@@ -519,9 +520,6 @@ span{
         height: 50%;
     }
   
-    /* .fidget{
-        display: none;
-    } */
     .shadowbox1 .one{
         width: 30%;
     }
@@ -540,7 +538,7 @@ span{
    
 }
 
-@media  screen and (min-width:400px){
+@media  screen and (min-width:630px){
     .fidget{
         display: none;
     }
@@ -549,4 +547,10 @@ span{
         margin-left: 0;
         margin-right: 0;
       }
+      .section4_containers{
+        width: 30%;
+      }
 }
+
+    
+
